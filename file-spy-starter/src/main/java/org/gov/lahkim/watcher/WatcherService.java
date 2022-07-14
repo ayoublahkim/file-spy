@@ -33,7 +33,7 @@ import static java.nio.file.StandardWatchEventKinds.*;
 @Service
 @Slf4j
 @ConditionalOnExpression(
-        "!T(org.springframework.util.StringUtils).isEmpty('${tatouir.file-spy.watcher.directory-read-path:}')"
+        "!T(org.springframework.util.StringUtils).isEmpty('${file-starter.file-spy.watcher.directory-read-path:}')"
 )
 public class WatcherService {
 

@@ -16,8 +16,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @Configuration
 @EnableScheduling
 @ConditionalOnExpression(
-        "!T(org.springframework.util.StringUtils).isEmpty('${tatouir.file-spy.cron.pattern:}') " +
-                "and !T(org.springframework.util.StringUtils).isEmpty('${tatouir.file-spy.cron.directory-read-path:}')"
+        "!T(org.springframework.util.StringUtils).isEmpty('${file-starter.file-spy.cron.pattern:}') " +
+                "and !T(org.springframework.util.StringUtils).isEmpty('${file-starter.file-spy.cron.directory-read-path:}')"
 )
 public class ScheduledJobs {
     @Autowired

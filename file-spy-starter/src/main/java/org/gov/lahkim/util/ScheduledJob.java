@@ -27,7 +27,7 @@ public class ScheduledJob {
         this.guard = guard;
     }
 
-    @Scheduled(cron = "${tatouir.file-spy.cron.pattern}")
+    @Scheduled(cron = "${file-starter.file-spy.cron.pattern}")
     public void readDirectory() throws IOException, ServiceException {
         Map<String, File> files = FileFinder.getAllFiles(configuration.getCron().getDirectoryReadPath(),
                 configuration.getCron().getFileNameRegexPattern());

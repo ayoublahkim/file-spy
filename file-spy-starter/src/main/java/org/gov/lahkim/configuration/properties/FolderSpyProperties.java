@@ -13,7 +13,7 @@ import javax.validation.constraints.NotEmpty;
  * @Author Ayoub LAHKIM
  */
 @Validated
-@ConfigurationProperties(prefix = "tatouir.file-spy")
+@ConfigurationProperties(prefix = "file-starter.file-spy")
 @Setter
 @Getter
 @Conditional
