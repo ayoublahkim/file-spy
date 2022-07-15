@@ -138,7 +138,9 @@ The encrypted content can be processed in that implementation
 ### Built With
 
 
+* [![java][java]][java]
 * [![Springboot][Springboot]][Springboot]
+* [![maven][maven]][maven]
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -236,10 +238,12 @@ Ayoub LAHKIM - [@LINKEDIN](https://www.linkedin.com/in/ayoub-lahkim-934456122/)
 
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/ayoublahkim/file-spy/stargazers
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ayoub-lahkim-934456122/
 [product-screenshot]: images/screenshot.png
 [Springboot]: https://img.shields.io/badge/springboot-000000?style=for-the-badge&logo=springboot&logoColor=green
 [Springboot-url]: https://spring.io/projects/spring-boot
+[java]: https://img.shields.io/badge/java8+-000000?style=for-the-badge&logo=java&logoColor=green
+[java-url]: https://www.java.com/fr/download/
+[maven]: https://img.shields.io/badge/MAVEN-000000?style=for-the-badge&logo=apachemaven&logoColor=blue
+[maven-url]: https://maven.apache.org/
